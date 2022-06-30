@@ -1,0 +1,20 @@
+Planning:
+
+- Make Questions 
+  - random math addition questions
+  - answers
+- Players - 2 players per game
+  - player name
+  - determines player lives
+  - determines whose turn
+- Turns
+  - Checking answers - lives
+  - Keeping score / check winner 
+  - Next turns / game over
+  - if statements
+- Game (main file)
+  - turns
+  - players
+  - questions
+  - check for current_player
+  - takes input/output (this might go in turns)
