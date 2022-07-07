@@ -5,3 +5,14 @@
 # Player 2 will have current_player initialize to false
 # It will not conain user I/O
 # Will include losing life method which decrements the lives
+
+class Player
+  attr_accessor :lives :turn
+  attr_reader :name
+
+  def initialize(name)
+    @name = name
+    @lives = 3
+    @turn = false
+  end
+end
