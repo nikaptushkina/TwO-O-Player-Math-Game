@@ -7,7 +7,7 @@
 # Will include losing life method which decrements the lives
 
 class Player
-  attr_accessor :lives :turn
+  attr_accessor :lives, :turn
   attr_reader :name
 
   def initialize(name)
@@ -16,3 +16,8 @@ class Player
     @turn = false
   end
 end
+
+p = Player.new("Mike")
+puts p.name
+puts p.lives
+puts p.turn

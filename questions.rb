@@ -1,8 +1,8 @@
 # Chooses two numbers between 1 - 20 to make addition provlems
 # Check the answer
 
-class questions
-  attr_reader :newQuestion :answer
+class Question
+  attr_reader :newQuestion, :answer
 
   def initialize
     num1 = rand(1..20)
@@ -11,3 +11,7 @@ class questions
     @answer = num1 + num2
   end
 end
+
+q = Question.new
+puts q.newQuestion
+puts q.answer
